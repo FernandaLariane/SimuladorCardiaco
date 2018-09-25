@@ -1,2 +1,2 @@
-# SoftwareArritmia
-Software para controlar a frequência cardíaca de uma pessoa com arritmia.
+# SimuladorWebInfarto
+Simulador Web para demostrar as causas do infarto.
