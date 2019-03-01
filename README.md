@@ -1,2 +1,2 @@
-# SimuladorWebInfarto
-Simulador Web para demostrar as causas do infarto.
+# SimuladorCardiaco
+Simulador Web para demostrar prevenção de doenças.
