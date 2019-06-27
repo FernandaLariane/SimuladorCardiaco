@@ -1,0 +1,171 @@
+<--! ../css/css_perguntas.css -->
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #000000;
+  background: #A52A2A;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact {
+  background: #FFA07A;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 49%;
+  border: none;
+  background: #A52A2A;
+  color: #FFF;
+  margin: 0 0 1px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #FF6347;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+
+@import('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/css/bootstrap.min.css') 
+
+.resp_radio div {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+}
+
+.resp_radio label {
+  width: 50%;
+  border-radius: 3px;
+  border: 1px solid #CD3333;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.resp_radio input[type="radio"]:empty,
+.resp_radio input[type="checkbox"]:empty {
+  display: none;
+}
+
+.resp_radio input[type="radio"]:empty ~ label,
+.resp_radio input[type="checkbox"]:empty ~ label {
+  position: relative;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  margin-top: 2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.resp_radio input[type="radio"]:empty ~ label:before,
+.resp_radio input[type="checkbox"]:empty ~ label:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2em;
+  background: #CD3333;
+  border-radius: 3px 0 0 3px;
+}
+
+.resp_radio input[type="radio"]:hover:not(:checked) ~ label,
+.resp_radio input[type="checkbox"]:hover:not(:checked) ~ label {
+  color: #8B1A1A;
+}
+
+.resp_radio input[type="radio"]:hover:not(:checked) ~ label:before,
+.resp_radio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #8B1A1A;
+}
+
+.resp_radio input[type="radio"]:checked ~ label,
+.resp_radio input[type="checkbox"]:checked ~ label {
+  color: #EE3B3B;
+}
+
+.resp_radio input[type="radio"]:checked ~ label:before,
+.resp_radio input[type="checkbox"]:checked ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #333;
+  background-color: #EE3B3B;
+}
+
+.resp_radio input[type="radio"]:focus ~ label:before,
+.resp_radio input[type="checkbox"]:focus ~ label:before {
+  box-shadow: 0 0 0 3px #999;
+  color: #fff;
+  background-color: #337ab7;
+}
