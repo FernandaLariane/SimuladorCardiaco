@@ -1,39 +1,7 @@
-/* ../css/css_cadastro.css */
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #000000;
-  background: #A52A2A;
-}
-
-.container {
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-
 #contact input[type="text"],
 #contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type="cpf"],
+#contact input[type="number"],
 #contact textarea,
 #contact button[type="submit"] {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
@@ -69,11 +37,17 @@ fieldset {
 }
 
 #contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-  width: 100%;
+#contact input[type="email"]{
+  width: 99%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="number"],
+#contact input[type="cpf"] {
+  width: 24%;
   border: 1px solid #ccc;
   background: #FFF;
   margin: 0 0 5px;
@@ -82,8 +56,8 @@ fieldset {
 
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
+#contact input[type="cpf"]:hover,
+#contact input[type="number"]:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
