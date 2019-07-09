@@ -31,13 +31,13 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: #000000;
+    color: white;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: #000000;
+    color: white;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
