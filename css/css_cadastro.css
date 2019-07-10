@@ -37,7 +37,8 @@ fieldset {
 }
 
 #contact input[type="text"],
-#contact input[type="email"]{
+#contact input[type="email"],
+#contact input[type="cpf"] {
   width: 99%;
   border: 1px solid #ccc;
   background: #FFF;
@@ -45,9 +46,8 @@ fieldset {
   padding: 10px;
 }
 
-#contact input[type="number"],
-#contact input[type="cpf"] {
-  width: 24%;
+#contact input[type="number"]{
+  width: 32%;
   border: 1px solid #ccc;
   background: #FFF;
   margin: 0 0 5px;
