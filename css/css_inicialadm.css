@@ -1,0 +1,12 @@
+/* ../css/css_inicialadm.css */
+#graficos {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#card{
+    width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+}
