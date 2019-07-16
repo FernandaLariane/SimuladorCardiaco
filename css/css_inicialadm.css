@@ -5,8 +5,6 @@
     margin: 0 auto;
     position: relative;
 }
-#card{
-    width: 100% !important;
-    margin: 0 auto;
-    position: relative;
+iframe{
+    border: none;
 }
