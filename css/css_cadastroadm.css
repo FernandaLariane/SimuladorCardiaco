@@ -1,4 +1,4 @@
-/* ../css/css_cadastro.css */
+/* ../css/css_cadastroadm.css */
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -49,7 +49,7 @@ fieldset {
 }
 
 #contact input[type="number"]{
-  width: 32%;
+  width: 49%;
   border: 1px solid #ccc;
   background: #FFF;
   margin: 0 0 5px;
@@ -75,7 +75,7 @@ fieldset {
 
 #contact button[type="submit"] {
   cursor: pointer;
-  width: 49%;
+  width: 100%;
   border: none;
   background: #A52A2A;
   color: #FFF;
@@ -99,20 +99,4 @@ fieldset {
 #contact textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
 }
