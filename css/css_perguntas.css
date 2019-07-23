@@ -1,3 +1,4 @@
+/* ../css/css_perguntas.css */
 #contact {
   background: #FFA07A;
   padding: 25px;
@@ -13,10 +14,14 @@
 }
 
 #contact h4 {
-  margin: 5px 0 15px;
   display: block;
   font-size: 18px;
   font-weight: 400;
+}
+.pergunta {
+  margin: 5px 0 15px;
+  border-bottom-style: solid;
+  border-bottom-color: #A52A2A;
 }
 
 fieldset {
@@ -49,31 +54,13 @@ fieldset {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.copyright {
-  text-align: center;
-}
-
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
-}
-
-
-@import('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/css/bootstrap.min.css') 
-
-.resp_radio div {
-  clear: both;
-  overflow: hidden;
-  width: 100%;
-}
-
 .resp_radio label {
   width: 50%;
   border-radius: 3px;
   border: 1px solid #CD3333;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 17px;
+  padding-left: 3.25em;
 }
 
 .resp_radio input[type="radio"]:empty,
@@ -116,11 +103,6 @@ fieldset {
   content: '\2714';
   text-indent: .9em;
   color: #8B1A1A;
-}
-
-.resp_radio input[type="radio"]:checked ~ label,
-.resp_radio input[type="checkbox"]:checked ~ label {
-  color: #EE3B3B;
 }
 
 .resp_radio input[type="radio"]:checked ~ label:before,

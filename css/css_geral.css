@@ -1,5 +1,7 @@
 /* ../css/css_geral.css */
-
+iframe{
+  border: none;
+}
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
   margin: 0;
