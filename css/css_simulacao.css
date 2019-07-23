@@ -4,15 +4,30 @@
   padding: 15px !important;
   margin: 15px;
   width: 860px !important;
-  height: 550px;
+  height: 500px;
+  color: #FFF;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 #parametros{
   padding: 5px;
   width: 40%;
-  border: 2px solid black;
   height: 90%;
   float: right;
+  margin: -15px;
 }
 
 #simulacao{
@@ -20,17 +35,11 @@
     padding: 5px;
     width: 60%;
     height: 90%;
-    border: 2px solid black;
 }
 
-/* opçoes em caixa */
-p {margin: 20px}
+/* opções (range)*/
 
-select.basic {
-  width: 200px;
-  height: 35px;
-}
-select.simple {
-  background: #f5f5f5;
-  border: 0;
+#parametros input[type="range"] {
+  width: 90%;
+  margin: 2px;
 }
